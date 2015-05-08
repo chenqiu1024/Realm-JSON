@@ -5,11 +5,11 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.9'
   s.license  = { :type => 'MIT', :file => 'LICENSE' }
   s.summary  = 'A concise Mantle-like way of working with Realm and JSON.'
-  s.homepage = 'https://github.com/matthewcheok/Realm-JSON'
-  s.author   = { 'Matthew Cheok' => 'cheok.jz@gmail.com' }
+  s.homepage = 'https://github.com/chenqiu1024/Realm-JSON'
+  s.author   = { 'Chenqiu1024' => 'godspeed1024@hotmail.com' }
   s.requires_arc = true
   s.source   = {
-    :git => 'https://github.com/matthewcheok/Realm-JSON.git',
+    :git => 'https://github.com/chenqiu1024/Realm-JSON.git',
     :branch => 'master',
     :tag => s.version.to_s
   }
